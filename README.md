@@ -5,3 +5,6 @@ Super AMI Copy allows you to copy AMIs across AWS partitions. It does this by:
 3. Splitting the AMI.bin file into segments
 4. Uploading to the destination account via multipart upload 
 4. Restoring the AMI.bin file to AMI
+
+### Prerequistes 
+Git is required as the script uses several bash commands. 
